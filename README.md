@@ -10,10 +10,12 @@
    
 ### 2. Two part question:
    (A) What is a static method in Java?
-    A static method is a method that can only access static data and other static methods. Can be called directly by class name without an object.
+   
+   A static method is a method that can only access static data and other static methods. Can be called directly by class name without an object.
 
    (B) Why does the main method need to be a static method?
-    Because static methods can access other static methods, main needs to be able to access all methods so it needs to be static.
+   
+   Because static methods can access other static methods, main needs to be able to access all methods so it needs to be static.
 
 ### 3. What is the output of the following programs?
    ```java
