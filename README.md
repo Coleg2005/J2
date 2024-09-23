@@ -190,12 +190,12 @@
        //TODO
 
        public FormulaOne(int n, Driver d, String make){
-       super(n, d);
-       this.make = make;     
+          super(n, d);
+          this.make = make;     
        }
 
        public String toString(){
-       return super.toString() + "Make" + FormulaOne;
+          return super.toString() + "Make" + FormulaOne;
        }
 
    }
