@@ -188,6 +188,16 @@
        private String make;
    
        //TODO
+
+       public FormulaOne(int n, Driver d, String make){
+       super(n, d);
+       this.make = make;     
+       }
+
+       public String toString(){
+       return super.toString() + "Make" + FormulaOne;
+       }
+
    }
    ```
 ### 14. Using the Racecar and FormulaOne classes above, if we had a main method in a different class than either of those,
@@ -204,6 +214,8 @@
    }
    ```
    Does the code work at mark A or mark B or neither? Explain.
+
+   Neither A nor B will work because we are trying to call "addSponsor" while that method is protected. Thus, we cannot access it.
 
 ### 15. Consider the UML diagram from the notes. Expand this to include an intern. An intern is like an employee, has a manager, unit, but has an expiration on their employment. How does this fit into the UML diagram?
 
