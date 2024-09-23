@@ -3,7 +3,7 @@
    
 2. (A) A static method is a method that can only access static data and other static methods. Can be called directly by class name without an object.
 
-   (B) Because static method c
+   (B) Because static methods can access other static methods, main needs to be able to access all methods so it needs to be static.
 
 4. (Program 1) Will print out "wrong" because the "==" compares addresses rather than what the address points to.
 
@@ -17,6 +17,6 @@
 
 7. The private declaration hides the information from people and functions that don't have access to it, i.e. encapsulation.
 
-8. The first Point becauseIt goes to the method that matches the input variables, if 2 ints were input, the first method is chosen.
+8. The first Point because it goes to the method that matches the input variables, if 2 ints were input, the first method is chosen.
 
-9. 
+9.  
