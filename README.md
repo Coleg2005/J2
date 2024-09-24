@@ -222,3 +222,5 @@
 ### 15. Consider the UML diagram from the notes. Expand this to include an intern. An intern is like an employee, has a manager, unit, but has an expiration on their employment. How does this fit into the UML diagram?
 
    Include your UML diagram and explanation below in this markdown file.
+
+   ![UML diagram](C:\Users\Cole\School\Sophomore-Fall\Software_Engineering_2113\Worksheet_J2\UML_Diagram.jpg "ULM diagram")
