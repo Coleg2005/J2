@@ -223,4 +223,4 @@
 
    Include your UML diagram and explanation below in this markdown file.
 
-   ![UML diagram]("./UML_Diagram" "ULM diagram")
+   ![UML diagram]("./UML_Diagram")
